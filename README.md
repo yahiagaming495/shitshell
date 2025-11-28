@@ -50,34 +50,42 @@ This shell can't:
 
 Here is an example:
 
-`Shit_shell< whoami
-yahia
-`
+`Shit_shell< whoami`
 
-`Shit_shell< ls /usr/bin/zsh
-/usr/bin/zsh`
+`yahia`
 
-`Shit_shell< cd ~/Desktop/Projects
-Shit_shell< ls
-cprograms  pythonshit`
+`Shit_shell< cd ~/Desktop/Projects`
 
-`Shit_shell< cd cprograms/
-Shit_shell< ls
-calcproject  shitshell`
+`Shit_shell< ls`
 
-`Shit_shell< cd ..
-Shit_shell< grep
-Usage: grep [OPTION]... PATTERNS [FILE]...
-Try 'grep --help' for more information.`
+`cprograms  pythonshit`
 
-`Shit_shell< gcc
-gcc: fatal error: no input files
-compilation terminated.`
+`Shit_shell< cd cprograms/`
 
-`Shit_shell< cc
-cc: fatal error: no input files
-compilation terminated.
-Shit_shell<`
+`Shit_shell< ls`
+
+`calcproject  shitshell`
+
+`Shit_shell< cd ..`
+
+`Shit_shell< grep`
+
+`Usage: grep [OPTION]... PATTERNS [FILE]...`
+
+`Try 'grep --help' for more information.`
+
+`Shit_shell< gcc`
+
+`gcc: fatal error: no input files`
+
+`compilation terminated.`
+
+`Shit_shell< cc`
+
+`cc: fatal error: no input files`
+
+`compilation terminated.`
+
 
 --------
 Features planned next:
