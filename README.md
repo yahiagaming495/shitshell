@@ -57,7 +57,6 @@ yahia
 `Shit_shell< ls /usr/bin/zsh
 /usr/bin/zsh`
 
-
 `Shit_shell< cd ~/Desktop/Projects
 Shit_shell< ls
 cprograms  pythonshit`
@@ -71,20 +70,18 @@ Shit_shell< grep
 Usage: grep [OPTION]... PATTERNS [FILE]...
 Try 'grep --help' for more information.`
 
-
 `Shit_shell< gcc
 gcc: fatal error: no input files
 compilation terminated.`
-
 
 `Shit_shell< cc
 cc: fatal error: no input files
 compilation terminated.
 Shit_shell<`
-----
 
+--------
 Features planned next:
-----
+--------
 - Customization
 
 - Piping
