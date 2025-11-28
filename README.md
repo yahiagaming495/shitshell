@@ -23,5 +23,5 @@ This shell can't:
 
 - Be customized at all
 
-- All other features that is NOT in the lisk of what the shell can do
+- All other features that is NOT in the list of what the shell can do
 
