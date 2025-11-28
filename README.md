@@ -15,6 +15,8 @@ This shell can:
 
 - Run third-party applications
 
+- The shell supports the "~" symbol (without quotes) to go to the home directory
+
 This shell can't:
 
 - Do piping
