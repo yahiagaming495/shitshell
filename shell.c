@@ -32,7 +32,13 @@ int main() {
 	if (args[1] != NULL && strcmp(args[1], "~") == 0) {
 		args[1] = getenv("HOME");
 	}
-
+	else if (args[1] != NULL && strncmp(args[1], "~/", 2) == 0) {
+		static char realcmd[256];
+		const char *home = getenv("HOME");
+		const char *restcmd = args[1] + 2;
+		snprintf(realcmd, sizeof(realcmd), "%s/%s", home, restcmd);
+		args[1] = realcmd;
+	}
 	// Built-in command: cd, Because execvc cannot change directory. The child process will change it's directory, exit. but the parent process cannot change it's directory 
 	if (strcmp(args[0], "cd") == 0) {
 		if (args[1] == NULL) {
