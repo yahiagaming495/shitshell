@@ -15,8 +15,7 @@ int main() {
 	char *command = readline("Shit_shell< "); // GNU Readline does this to make storing stuff easier
 	
 	if (!command) break; // Break if the input is wrong
-	
-	if (*command)
+	if (*command) 
 		add_history(command); // Save command history to a file (Thanks GNU Readline)
 
 	// -- Split the command from it's arguments -- //
@@ -29,7 +28,10 @@ int main() {
 	}
 
 	
-	args[i] = NULL; // As far as i know, Put NULL at the end of the command
+	args[i] = NULL;
+	if (args[1] != NULL && strcmp(args[1], "~") == 0) {
+		args[1] = getenv("HOME");
+	}
 
 	// Built-in command: cd, Because execvc cannot change directory. The child process will change it's directory, exit. but the parent process cannot change it's directory 
 	if (strcmp(args[0], "cd") == 0) {
