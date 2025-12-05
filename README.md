@@ -2,7 +2,7 @@
 A shell made for people who hate their lives
 -----------
 
-**DISCLAIMER: This shell was a hard project to do, Especially for me as a beginner. I asked AI to clarify to me what everything means. BUT AI DID NOT WRITE THE CODE. So of course this shell is not and will not be perfect. Please report bugs to the bugs section in this repo**
+**DISCLAIMER: This shell was a hard project to do, Especially for me as a beginner. This shell is not and will not be perfect. Please report bugs to the bugs section in this repo (Removed all the AI stuff from the previous commit to the README because i wrote the code again myself without external help or blindly copying and pasting code**
 
 Now with that disclaimer said, Let's clarify what this shell can and can't do
 
