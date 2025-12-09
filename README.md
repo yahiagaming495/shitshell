@@ -50,7 +50,7 @@ This shell can't:
 **Config file**
 ---------
 
-As of the latest version, There are config files for the program. The config files currently have only one option, Which is to choose whether to print the current directory or not.
+As of the latest version, There is a config file for the program. The config file currently has only one option, Which is to choose whether to print the current directory or not.
 
 The config file has to be located at (~/shitshell) since that is the file that the program looks for. To make the program print the current directory you have to make a file called "shitshell" in your home directory and add the following:
 
