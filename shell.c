@@ -25,7 +25,6 @@ int main() {
     FILE *fp = fopen(FinalPath, "r"); // Because we saved the final path in UserHome "r" means reading mode
     if (fp == NULL) { // If we can't open the file
 		CurrentHomePrint = "false"; // Default to false
-      	perror("fopen() error, Setting CurrentHomePrint to false"); // Print an error
 
 
   	} else {
