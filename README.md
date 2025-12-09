@@ -26,9 +26,8 @@ This shell can't:
 
 - Do piping
 
-- Be customized at all
+- Be customized at all (Other than choosing whether to print the current directory or not)
 
-- All other features that is NOT in the list of what the shell can do
 
 **Compiling:**
 ------
