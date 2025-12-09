@@ -2,11 +2,12 @@
 A shell made for people who hate their lives
 -----------
 
-**DISCLAIMER: This shell was a hard project to do, Especially for me as a beginner. This shell is not and will not be perfect. Please report bugs to the bugs section in this repo (Removed all the AI stuff from the previous commit to the README because i wrote the code again myself without external help or blindly copying and pasting code**
+**DISCLAIMER: This shell was a hard project to do, Especially for me as a beginner. This shell is not and will not be perfect. Please report bugs to the bugs section in this repo (Removed all the AI stuff from the previous commit to the README because I re-wrote the code again myself without external help or blindly copying and pasting code)**
 
 Now with that disclaimer said, Let's clarify what this shell can and can't do
 
 This shell can:
+
 - Run commands
   
 - Store command history for the current session to navigate between commands (Using GNU readline)
@@ -19,11 +20,11 @@ This shell can:
 
 - Tab auto-completion (Enter a portion of the command/file/folder/etc. and press tab to complete it)
 
+- Say which directory it is in (like zsh)
+
 This shell can't:
 
 - Do piping
-
-- Say which directory it is in (like zsh)
 
 - Be customized at all
 
@@ -43,6 +44,20 @@ This shell can't:
 **Fedora:** `sudo dnf install gcc` and then `gcc -o shell shell.c -lreadline`
 
 **Debian:** `sudo apt install gcc` and then `gcc -o shell shell.c -lreadline`
+
+
+
+**Config file**
+---------
+
+As of the latest version, There are config files for the program. The config files currently have only one option, Which is to choose whether to print the current directory or not.
+
+The config file has to be located at (~/shitshell) since that is the file that the program looks for. To make the program print the current directory you have to make a file called "shitshell" in your home directory and add the following:
+
+```CurrentDicPrint=True```
+
+If the file doesn't exist or anything other than ```CurrentDicPrint=True``` is in the file, The program will automatically default to not print the current directory
+
 
 ------
 
